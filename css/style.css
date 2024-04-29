@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #e9e2d0;
+}
+
+.container {
+  background-image: url(../img/container.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  border-radius: 20px;
+  justify-content: space-around;
+  height: 70vh;
+  padding: 5%;
+  width: 60%;
+  box-shadow: rgba(100, 100, 111, 0.342) 0px 7px 29px 0px;
+}
+
+.preencher {
+  width: 50%;
+  align-items: center;
+  position: relative;
+  bottom: 5%;
+}
+
+.preencher img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preencher h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.preencher p {
+  font-weight: 200;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.preencher input {
+  width: 70%;
+  font-size: 18px;
+  font-weight: 200;
+  background-color: #ffffff7e;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 0px;
+  outline: 0;
+  box-shadow: rgba(100, 100, 111, 0.192) 0px 7px 29px 0px;
+}
+
+.botoes {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.botoes a {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  width: 30%;
+  height: 4vh;
+  transition: 1s;
+}
+
+.logar {
+  background-color: black;
+  padding: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0px solid;
+  outline: none;
+  transition: 1s;
+}
+
+.cadastro {
+  background-color: #243835;
+}
+
+.logar:hover,
+.cadastro:hover {
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 0.411) 0px 5px 5px;
+}
+
+.esqueci {
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+  color: black;
+}
